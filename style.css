@@ -4,3 +4,58 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+body {
+    height: 100vh;
+    background-color: black;
+    background-image: url(img/wallhaven-jxd1x5_1920x1080.png);
+    background-size: cover;
+    background-position: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: orange;
+}
+
+/* HEADER*/
+header {
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .toggle_btn {
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
