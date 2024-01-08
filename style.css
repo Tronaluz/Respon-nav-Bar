@@ -97,7 +97,7 @@ header{
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.dropdown_menu .open {
+.dropdown_menu.open {
     height: 240px;
 }
 
@@ -108,7 +108,7 @@ header{
     justify-content: center;
 }
 
-.dropdown_menu .action_btn{
+.dropdown_menu.action_btn{
     width: 100%;
     display: flex;
     justify-content: center;
